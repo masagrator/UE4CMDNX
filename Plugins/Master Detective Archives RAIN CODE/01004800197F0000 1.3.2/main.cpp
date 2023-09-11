@@ -46,7 +46,7 @@ bool* checkFlag_shared = 0;
 char16_t* string_shared = 0;
 uint64_t main_address = 0;
 uint64_t ConsoleCommandAddress = 0;
-uint32_t instanceOffset = 0x9DE9B0; // Master Detective Archives: RAIN CODE 1.3.2
+uint32_t instanceOffset = 0x9DE9B0; // Master Detective Archives: RAIN CODE 1.3.2 "RCGameInstance"
 bool U32Flag = false;
 
 typedef fString16* (*ConsoleCommandU16)(void* instance, fString16* Fstring, bool writeToLog, const void* dummy, const void* dummy2, const void* dummy3, const void* dummy4, const void* dummy5, const void* validPointerToNothing);
